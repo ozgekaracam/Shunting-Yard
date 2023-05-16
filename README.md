@@ -1,4 +1,5 @@
 # Shunting-Yard
+## VU Amsterdam, 2021
 Shunting Yard Algorithm can parse mathematical expressions in infix notation, and produce a representation in reverse polish notation (RPN), that can be used e.g. for computing the value of the expression.
 
 Examples:
