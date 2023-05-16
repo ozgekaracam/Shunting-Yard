@@ -8,7 +8,7 @@ For example: <br>
 infix expression: 12.5 + 1.1 <br>
 RPN representation: 12.5 1.1 + <br>
 
-<br>
+
 **Simplifications:**
 
 1. Expressions consist of floating-point numbers (C++ type double), the operators +, -, *, /, %, and parentheses ( )
