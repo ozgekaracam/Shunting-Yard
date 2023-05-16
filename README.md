@@ -34,11 +34,11 @@ It reads lines of text from std::cin, each line consists of an expression in inf
 
 Example of a correct execution of the program (alternating lines of input and output):
 
-1 + 5 * 8 + 1   1 5 8 * + 1 + = 42
+1 + 5 * 8 + 1         1 5 8 * + 1 + = 42
 
-( 1 + 5 ) * ( 8 + 1 )   1 5 + 8 1 + * = 54
+( 1 + 5 ) * ( 8 + 1 )         1 5 + 8 1 + * = 54
 
-1 + 2 * 3 / 4 + 5   1 2 3 * 4 / + 5 + = 7.5
+1 + 2 * 3 / 4 + 5         1 2 3 * 4 / + 5 + = 7.5
 
 -.5e3 + 42    -500 42 + = -458
 
