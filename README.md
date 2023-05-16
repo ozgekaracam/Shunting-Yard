@@ -5,16 +5,21 @@
 Shunting Yard Algorithm can parse mathematical expressions in infix notation, and produce a representation in reverse polish notation (RPN), that can be used e.g. for computing the value of the expression.
 
 Examples:
+| infix expression | RPN representation |
+| 12.5 + 1.1 |
 
-infix expression        RPN representation
+12.5 1.1 +
 
-12.5 + 1.1              12.5 1.1 +
+ |
+| 1 + 5 * 8 + 1 |
 
-1 + 5 * 8 + 1            1 5 8 * + 1 +
+1 5 8 * + 1 +
 
-( 1 + 5 ) * ( 8 + 1 )    1 5 + 8 1 + * 
+ |
+| ( 1 + 5 ) * ( 8 + 1 ) | 1 5 + 8 1 + * |
+| 2.5 / 3 | 2.5 3 /
 
-2.5 / 3                  2.5 3 /
+ |
 
 Simplifications:
 
@@ -34,15 +39,16 @@ It reads lines of text from std::cin, each line consists of an expression in inf
 
 Example of a correct execution of the program (alternating lines of input and output):
 
-1 + 5 * 8 + 1         1 5 8 * + 1 + = 42
-
-( 1 + 5 ) * ( 8 + 1 )         1 5 + 8 1 + * = 54
-
-1 + 2 * 3 / 4 + 5         1 2 3 * 4 / + 5 + = 7.5
-
--.5e3 + 42    -500 42 + = -458
-
--7.9 % 4.2    -7.9 4.2 % = -3
+1 + 5 * 8 + 1\
+1 5 8 * + 1 + = 42\
+( 1 + 5 ) * ( 8 + 1 )\
+1 5 + 8 1 + * = 54\
+1 + 2 * 3 / 4 + 5\
+1 2 3 * 4 / + 5 + = 7.5\
+-.5e3 + 42\
+-500 42 + = -458\
+-7.9 % 4.2\
+-7.9 4.2 % = -3
 
 Sources:
 
