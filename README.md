@@ -37,6 +37,9 @@ Example of a correct execution of the program (alternating lines of input and ou
 
 
 
+
 Sources: 
+
 Shunting-yard Algorithm           -> https://en.wikipedia.org/wiki/Shunting-yard_algorithm
+
 Operator precedence in C and C++  -> https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#Operator_precedence
