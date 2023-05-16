@@ -10,10 +10,8 @@ infix expression: 12.5 + 1.1
 
 RPN representation: 12.5 1.1 +
 
-
-
-
-Simplifications:
+<br>
+**Simplifications:**
 
 1. Expressions consist of floating-point numbers (C++ type double), the operators +, -, *, /, %, and parentheses ( )
 
@@ -29,7 +27,7 @@ Simplifications:
 
 It reads lines of text from std::cin, each line consists of an expression in infix notation. For an expression, it applies the shunting-yard algorithm to compute the corresponding RPN notation, and evaluates the RPN notation to compute the numerical value.Finally it prints the RPN notation, followed by = and the numerical value of the expression. The program ends when an empty line has been read from std::cin.
 
-Example of a correct execution of the program (alternating lines of input and output):
+Some examples of a correct execution of the program (alternating lines of input and output):
 
 1 + 5 * 8 + 1\
 1 5 8 * + 1 + = 42\
@@ -42,7 +40,7 @@ Example of a correct execution of the program (alternating lines of input and ou
 -7.9 % 4.2\
 -7.9 4.2 % = -3
 
-Sources:
+**Sources:**
 
 Shunting-yard Algorithm           -> https://en.wikipedia.org/wiki/Shunting-yard_algorithm
 
