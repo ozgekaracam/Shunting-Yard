@@ -13,7 +13,7 @@ Simplifications:
 
 1. Expressions consist of floating-point numbers (C++ type double), the operators +, -, *, /, %, and parentheses ( )
 
-  * +, -, *, / perform the well-known computations on floating-point numbers
+ * +, -, *, / perform the well-known computations on floating-point numbers
 
   * % converts (truncates) both its floating-point operands to integer numbers and then computes the division remainder (and converts the result back to floating point)
 
