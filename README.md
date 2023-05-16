@@ -13,8 +13,8 @@ infix expression	      RPN representation
 Simplifications:
 
 1. Expressions consist of floating-point numbers (C++ type double), the operators +, -, *, /, %, and parentheses ( )
-  -> +, -, *, / perform the well-known computations on floating-point numbers
-  -> % converts (truncates) both its floating-point operands to integer numbers and then computes the division remainder (and converts the result back to floating point)
+  * +, -, *, / perform the well-known computations on floating-point numbers
+  * % converts (truncates) both its floating-point operands to integer numbers and then computes the division remainder (and converts the result back to floating point)
   
 2. This means: no variables, no functions, no other operators (as part of the infix expressions)
 3. Our five operators +, -, *, /, % are left-associative
