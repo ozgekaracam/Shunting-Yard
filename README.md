@@ -40,5 +40,5 @@ Some examples of a correct execution of the program (alternating lines of input 
 
 **Sources:**
 
-[Shunting-yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm)
+[Shunting-yard Algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm) <br>
 [Operator precedence in C and C++](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B#Operator_precedence)
